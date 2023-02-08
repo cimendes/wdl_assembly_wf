@@ -3,6 +3,7 @@ version 1.0
 task unicycler {
   meta {
     # task metadata
+    description: "Task to assemble paired-end read data with unicycler"
   }
   input {
     # task inputs
