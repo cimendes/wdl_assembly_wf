@@ -1,0 +1,7 @@
+version: 1.1
+workflows:
+ - name: Assembly
+   subclass: WDL
+   primaryDescriptorPath: /workflows/wf_assembly.wdl
+   testParameterFiles:
+    - empty.json
